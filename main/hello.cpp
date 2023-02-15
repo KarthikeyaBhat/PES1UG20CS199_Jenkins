@@ -3,10 +3,9 @@
 using namespace std;
 
 int main(void) {
-  cout << "Hello, World\n";
-  cout << "Hello, Jenkins\n";
-  cout << "I have successfully built and run\n";
-  cout << "I have changed cpp file\n";
   cout << "PES1UG20CS199\n";
+  for(int i=0;i<10;i++){
+    cout<<i<<endl;
+  }
   return 0;
 }
