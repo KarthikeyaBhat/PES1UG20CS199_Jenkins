@@ -3,10 +3,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'make -C main'
-                sh 'ls'
-                sh 'make -f make1.mk'
-                echo 'Build Stage Successful'
+                sh '/main/make -f make2.mk'
+                sh '/main/make -f make1.mk'
             }
         }
         stage('Test') {
