@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'make -C main'
-                sh 'cd main'
+                sh 'ls'
                 sh 'make -f make1.mk'
                 echo 'Build Stage Successful'
             }
